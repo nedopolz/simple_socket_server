@@ -4,7 +4,7 @@ import datetime
 
 def server_program():
     host = ''
-    port = 1305
+    port = 1303
     server_socket = socket.socket()
     server_socket.bind((host, port))
     server_socket.listen(6)
